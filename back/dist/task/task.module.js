@@ -15,8 +15,8 @@ let TaskModule = class TaskModule {
 exports.TaskModule = TaskModule;
 exports.TaskModule = TaskModule = __decorate([
     (0, common_1.Module)({
-        controllers: [task_controller_1.TaskController],
-        providers: [task_service_1.TaskService],
+        controllers: [task_controller_1.TasksController],
+        providers: [task_service_1.TasksService],
     })
 ], TaskModule);
 //# sourceMappingURL=task.module.js.map

@@ -1,8 +1,6 @@
-// src/users/users.service.ts
-
 import { Injectable } from '@nestjs/common';
 import * as bcrypt from 'bcrypt';
-import { UserResponseDTO } from './users.dto'; // Importa el DTO
+import { UserResponseDTO } from './users.dto';
 
 interface User {
   id: number;
@@ -25,7 +23,7 @@ export class UsersService {
     };
 
     this.users.push(newUser);
-    return new UserResponseDTO(newUser.id, newUser.email); // Retorna el DTO
+    return new UserResponseDTO(newUser.id, newUser.email);
   }
 
   async getUserByEmail(email: string): Promise<User | undefined> {

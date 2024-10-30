@@ -11,6 +11,7 @@ import { TaskModule } from './task/task.module';
   imports: [
     AuthModule,
     UsersModule,
+    TaskModule,
     ConfigModule.forRoot({
       isGlobal: true,
     }),

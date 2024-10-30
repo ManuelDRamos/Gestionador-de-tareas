@@ -32,3 +32,10 @@ out/                        # Static export folder
 # Git-specific files
 *.swp                       # Swap files from text editors
 .gitignore                  # Exclude .gitignore files within the repo
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local

@@ -32,7 +32,7 @@ exports.AuthModule = AuthModule = __decorate([
                     }
                     return {
                         secret,
-                        signOptions: { expiresIn: '60s' },
+                        signOptions: { expiresIn: '1h' },
                     };
                 },
             }),

@@ -20,7 +20,7 @@ import { UsersModule } from 'src/users/users.module';
         }
         return {
           secret,
-          signOptions: { expiresIn: '60s' },
+          signOptions: { expiresIn: '1h' },
         };
       },
     }),

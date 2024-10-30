@@ -23,6 +23,7 @@ exports.AppModule = AppModule = __decorate([
         imports: [
             auth_module_1.AuthModule,
             users_module_1.UsersModule,
+            task_module_1.TaskModule,
             config_1.ConfigModule.forRoot({
                 isGlobal: true,
             }),
